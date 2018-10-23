@@ -28,7 +28,7 @@ Structured Query Language
 
 `SELECT * FROM BOOKS b`
 
-`JOIN AUTHORS a ON b.author_id = a.id
+`JOIN AUTHORS a ON b.author_id = a.id`
 
 `WHERE a.NAME = "Jules Vernes"`
 
