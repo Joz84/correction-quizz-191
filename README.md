@@ -26,10 +26,10 @@ Structured Query Language
 
 #Q7
 
-`SELECT * FROM BOOKS b
-JOIN AUTHORS a ON b.author_id = a.id
-WHERE a.NAME = "Jules Vernes"
-ORDER BY b.PUBLISHED_YEAR DESC
+`SELECT * FROM BOOKS b\n
+JOIN AUTHORS a ON b.author_id = a.id\n
+WHERE a.NAME = "Jules Vernes"\n
+ORDER BY b.PUBLISHED_YEAR DESC\n
 LIMIT 3;`
 
 #Q8
@@ -57,7 +57,7 @@ Voir /models
 #Q13
 
 .1
-`author = Author.new(name: "Amelie Nothomb")
+`author = Author.new(name: "Amelie Nothomb")\n
 author.save`
 
 .2
